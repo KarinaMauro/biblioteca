@@ -17,7 +17,7 @@ body {
      border-radius: 23px;
      border: double;
      z-index: 99;
-     
+     position: absolute;
      margin-top: 7%;
 }
 

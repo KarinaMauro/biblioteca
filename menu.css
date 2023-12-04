@@ -78,7 +78,7 @@ body {
   }
 
 /*------------------------------------------------------------*/
-.iperfil {
-  height:  20px;
-  width: 20px;
+.contato-img img {
+  height: 20px;
+  width: 35px;
 }
