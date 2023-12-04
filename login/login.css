@@ -1,0 +1,88 @@
+body {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    margin-left: -210%;
+    background-color:midnightblue;
+}
+
+.container {
+    margin-left: 171%;
+    width: 400px;
+     height:420px ;
+     max-width: 390px;
+     padding: 30px;
+     background-color:black;
+     border-radius: 23px;
+     border: double;
+     z-index: 99;
+     
+     margin-top: 7%;
+}
+
+    
+h1 {
+    
+    text-align: center;
+    
+    margin-bottom: 30px;
+    
+    }
+    
+    form {
+    
+    display: flex;
+
+    flex-direction: column;
+    }
+    
+    label {
+    
+    font-weight: bold;
+    
+    margin-bottom: 5px;
+    
+    }
+    input[type="text"],
+
+input[type="email"],
+
+textarea {
+padding: 10px;
+margin-bottom: -10px;
+border-radius: 5px;
+border: none;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+button[type="submit"] {
+
+    padding: 10px;
+    background-color: indigo;
+    margin-left: 13%;
+    width: 75%;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+
+.login img{
+    height: 87px;
+    width: 87px;
+    margin-left: 38%;
+    border: solid;
+}
+.perfil img{
+    border-radius: 23px;
+    margin-left: 10%;
+    height:484px ;
+    margin-top: -92%;
+    width: 220%;
+    border: solid;
+    z-index: 1;
+    position: absolute;
+    
+}

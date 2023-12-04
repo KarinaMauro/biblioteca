@@ -1,0 +1,84 @@
+/****<footer>
+    <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+    <div>
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Twitter</a>
+      <a href="#" target="_blank">Instagram</a>
+    </div>
+  </footer>
+
+  <script>
+    const socialLinks = document.querySelectorAll('footer a');
+
+    socialLinks.forEach(link => {
+      link.addEventListener('mouseover', () => {
+        link.style.fontSize = '1.2em';
+        link.style.transition = 'font-size 0.3s ease-in-out';
+      });
+
+      link.addEventListener('mouseout', () => {
+        link.style.fontSize = '1em';
+      });
+    });
+  </script>*/
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

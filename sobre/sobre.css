@@ -1,0 +1,21 @@
+.txtvirtual {
+    font-family: Stencil Std, fantasy;
+    color:#00b3e5!important;
+    font-size: 29px;
+    text-align: center;
+  }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.txt1 {
+font-family:Comic Sans MS, Comic Sans, cursive;
+font-size: 18px;
+margin-left: 35%;
+
+}

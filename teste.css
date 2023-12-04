@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .terms a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .social a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .txtvirtual {
+    font-family: Stencil Std, fantasy;
+    color:#00b3e5!important;
+    font-size: 25px;
+    margin-left: 20%;
+  }
+  .txtparte1 {
+    
+    font-size: 16px;
+    font-family: Snell Roundhand, cursive;
+    margin-left: 6%;
+  }
+  .imagem img{
+height: 270px;
+margin-left: 60%;
+margin-top: -420px;
+border-radius: 20px;
+  }
+.figura1 img{
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+.figura2 img{
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  margin-top: 70px;
+}
+.figura3 img{
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  margin-top: 70px;
+}
+   .faixa {
+    width: 107%;
+    height:420px ;
+    background:navy;
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-around;
+   }
+  /*--------------------------------*/
+  footer {
+    background-color: #333;
+    color: #fff;
+    
+    text-align: center;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+}
+
+.politica-privacidade a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.politica-privacidade a:hover {
+    text-decoration: underline;
+}
+/*------------------*/
+.escrita1 {
+  font-family:  Snell Roundhand, cursive;
+  font-size: 12;
+  margin-top: -14%;
+  margin-left: 7%;
+  color:white;
+}
+.escrita2 {
+  font-family:  Snell Roundhand, cursive;
+  font-size: 12;
+  margin-left: 7%;
+  color:white;
+}
+.escrita3 {
+  font-family: Snell Roundhand, cursive;
+  font-size: 12;
+  margin-left: 8%;
+  color:white;
+}
+.escrita4 {
+  font-family: Snell Roundhand, cursive;
+  font-size: 12;
+  margin-left: 12%;
+  color:white;
+}
+
+/*--------*/
+.escrita6 {
+  font-family: Snell Roundhand, cursive;
+  font-size: 12;
+  margin-left: 39%;
+  margin-top: -6%;
+  color:white;
+}
+.escrita7{
+  font-family: Snell Roundhand, cursive;
+  font-size: 12;
+  margin-left: 38%;
+  color:white;
+}
+.escrita8{
+  font-family: Snell Roundhand, cursive;
+  font-size: 12;
+  margin-left: 41%;
+  color:white;
+}
+/*---------------*/
+.escrita9{
+  font-family: Snell Roundhand, cursive;
+  font-size: 12;
+  margin-left: 75%;
+margin-top: -76px;
+color:white;
+}
+.escrita10{
+  font-family: Snell Roundhand, cursive;
+  font-size: 12;
+  margin-left: 73%;
+  color:white;
+}
+.escrita11{
+  font-family: Snell Roundhand, cursive;
+  font-size: 12;
+  margin-left: 72%;
+  color:white;
+}
+
+
+
+
+ 
+  
