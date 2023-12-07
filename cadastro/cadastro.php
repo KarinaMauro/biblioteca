@@ -44,9 +44,10 @@ require_once '../cadastro/db.php';
         if ($count > 0 ) {
             $error = 'Está senha já foi cadastrada.';
         } else {
-            $stmt = $pdo->prepare('INSERT INTO cadastro(nome, cpf, telefone, senha)
-            VALUES(:nome, :cpf, :telefone, :senha)');
-            $stmt ->execute(['nome' => $nome, 'cpf' => $cpf, 'telefone' => $telefone, 'senha' => $senha]);
+            $stmt = $pdo->prepare('INSERT INTO cadastro (nome, cpf, telefone, senha, tipo_usuario)
+            VALUES (:nome, :cpf, :telefone, :senha, 2)');
+            $stmt->execute(['nome' => $nome, 'cpf' => $cpf, 'telefone' => $telefone, 'senha' => $senha]);
+
 
             if ($stmt->rowCount()) {
             echo '<span>Cadastro realizado com sucesso!</span>';

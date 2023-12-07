@@ -17,8 +17,8 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="sobre/sobre.html">Sobre</a></li>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../sobre/sobre.html">Sobre</a></li>
                 <li class="dropdown">
                     <a href="#categorias">Categorias</a>
                     <ul class="dropdown-menu">

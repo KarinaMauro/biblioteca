@@ -25,7 +25,7 @@
                 <li><a href="../lancamento/lancamento.html">Lançamentos</a></li>
               </ul>
             </li>
-            <li><a href="contato/contato.html">Contato</a></li>
+            <li><a href="contato.php">Contato</a></li>
           </ul>
         </nav>
       </header>

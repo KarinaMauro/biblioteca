@@ -4,7 +4,6 @@ body {
     justify-content: center;
     height: 100vh;
     background-color: midnightblue;
-    color:
     background-image: url('img/img/alfons-morales-YLSwjSy7stw-unsplash-scaled.jpg');
 }
 
@@ -82,8 +81,7 @@ transition: all 0.3s ease;
     width: 71%;
     border: solid;
     z-index: 1;
-    margin-top: -16%;
-    
+    margin-top: -244px;
 }
 
 

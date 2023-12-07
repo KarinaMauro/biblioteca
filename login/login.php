@@ -1,26 +1,3 @@
-<?php 
-require_once 'db.php';
-
-    if (isset($_POST['submit'])) {
-        $nome = $_POST['nome'];
-        $senha = $_POST['senha'];
-      
-        
-        $stmt = $pdo->prepare('SELECT * FROM entrar WHERE nome = ? AND senha = ?');
-        $stmt->execute([$nome, $senha]);
-        $count = $stmt->fetch();
-
-        
-        if ($count > 0 ) {
-                    echo "sucesso";
-        } else {
-                echo "erro ao realizar Login";
-        }
-        
-    }
-    ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,13 +6,14 @@ require_once 'db.php';
     <title>Document</title>
     <link rel="stylesheet" href="login.css">
 
-    <div class="container">
     <div class="login">
-        <img src="../img/10412454.png">
-    </div>
-<br><br><br>
+    <img src="../img/10412454.png">
+</div>
+    <div class="container">
+        <p style= "font-family:monospace;font-size:30px;color:white">Logar</p>
+<br>
 
-<form method="post">
+<form action="loginconfig.php" method="POST">
         <input type="text" name="nome" placeholder="Nome" required><br><br>
         <input type="password" name="senha" placeholder="Senha" required><br><br>
       
@@ -44,6 +22,7 @@ require_once 'db.php';
         <button type="submit" name="submit" value="Cadastrar">Continuar</button>
 </div>
 </form>
+<a href="../cadastro/cadastro.php">Cadastro</a></div>   
 
 <div class="perfil">
     <img src="../img/big-data-developer-header-banner-vector-23242237.jpg">

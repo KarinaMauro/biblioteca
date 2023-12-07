@@ -8,6 +8,7 @@ body {
 }
 
 .container {
+    position: absolute;
     margin-left: 171%;
     width: 400px;
      height:420px ;
@@ -16,9 +17,9 @@ body {
      background-color:black;
      border-radius: 23px;
      border: double;
-     z-index: 99;
      position: absolute;
      margin-top: 7%;
+     z-index: 99;
 }
 
     
@@ -55,6 +56,13 @@ border-radius: 5px;
 border: none;
 box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: -10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
 button[type="submit"] {
 
     padding: 10px;
@@ -77,12 +85,11 @@ button[type="submit"] {
 }
 .perfil img{
     border-radius: 23px;
-    margin-left: 10%;
-    height:484px ;
-    margin-top: -92%;
-    width: 220%;
+    position: absolute;
+    height: 480px;
+    margin-left: 1054px;
+    width: 71%;
     border: solid;
     z-index: 1;
-    position: absolute;
-    
+    margin-top: -189px;
 }
